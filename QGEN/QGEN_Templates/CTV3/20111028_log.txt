@@ -1,0 +1,5 @@
+28/10/2011,16:38:56,0,Started
+28/10/2011,16:38:56,0,Parsing files
+28/10/2011,16:38:56,0,Input Folder: C:\USR\Projects\GPExtract\Extract-2011\MIQUEST_Manager_Templates\CTV3\
+28/10/2011,16:38:59,0,Finished
+28/10/2011,16:38:59,0,Processed in 3 secs (491 ms)

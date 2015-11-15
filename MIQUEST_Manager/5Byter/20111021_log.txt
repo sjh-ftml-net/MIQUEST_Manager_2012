@@ -1,0 +1,5 @@
+21/10/2011,13:54:47,0,Started
+21/10/2011,13:54:47,0,Parsing files
+21/10/2011,13:54:47,0,Input Folder: C:\USR\Projects\GPExtract\Extract-2011\MIQUEST_Manager_Templates\5Byte\
+21/10/2011,13:54:47,0,Finished
+21/10/2011,13:54:47,0,Processed in 0 secs (109 ms)

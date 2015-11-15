@@ -1,0 +1,54 @@
+MIQUEST Manager Started at 28/10/2011 17:18:40
+
+Global Query Settings...
+End Date:       28/10/2011
+Start Date:     28/10/2010
+LTC End Date:   28/10/2010
+LTC Start Date: 28/10/2006
+No file split selected
+No query schedule
+Local query
+
+Begun parsing template...
+Processing: C:\USR\Projects\GPExtract\Extract-Dev\RELEASE\QGEN_Templates\5Byte\5Byte_INIT_LOAD.tpl
+Processing: C:\USR\Projects\GPExtract\Extract-Dev\RELEASE\QGEN_Templates\5Byte\5Byte_COHORT.inc
+Created Cohort: CSPOP, Full practice population
+Created Cohort: CSREF, Patients refused to share records
+Created Cohort: CSALL, Patients consented to share records **MAPPED
+Completed : C:\USR\Projects\GPExtract\Extract-Dev\RELEASE\QGEN_Templates\5Byte\5Byte_COHORT.inc
+Created Journal Set: DIA
+Created Journal Set: RES
+Created Journal Set: DRG
+Processing: C:\USR\Projects\GPExtract\Extract-Dev\RELEASE\QGEN_Templates\5Byte\5Byte_QOF.inc
+Created Journal Set: QOF
+Completed : C:\USR\Projects\GPExtract\Extract-Dev\RELEASE\QGEN_Templates\5Byte\5Byte_QOF.inc
+Completed : C:\USR\Projects\GPExtract\Extract-Dev\RELEASE\QGEN_Templates\5Byte\5Byte_INIT_LOAD.tpl
+
+Begun generating HQL files...
+Creating HQL Files
+Creating COHORT SUBSET Files
+  001_CSPOP.HQL
+  002_CSREF.HQL
+  003_CSALL.HQL
+Creating COHORT REPORT Files
+  004_CSALLG.HQL
+  005_CSALLR.HQL
+Creating JOURNAL Files
+* Journal Set: CURRENT, DIA00G, File: 006_DIA00G.HQL
+  007_DIA01R.HQL: 28/10/2010 to 28/10/2011
+    Codesets 1, Diseases
+* Journal Set: CURRENT, RES00G, File: 008_RES00G.HQL
+  009_RES01R.HQL: 28/10/2010 to 28/10/2011
+    Codesets 1, Resolved Codes
+* Journal Set: CURRENT, DRG00G, File: 010_DRG00G.HQL
+  011_DRG01R.HQL: 28/10/2010 to 28/10/2011
+    Codesets 1, Drugs
+* Journal Set: LTC, QOF00G, File: 012_QOF00G.HQL
+  013_QOF01R.HQL: 28/10/2006 to 28/10/2010
+    Codesets 19, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF, QOF
+Creating ENCOUNTER Files
+* Encounter Set: ENC00G, File: 014_ENC00G.HQL
+  015_ENC01R.HQL: 28/10/2010 to 28/10/2011
+
+MIQUEST Manager Completed at 28/10/2011 17:18:40
+Processed in 0 secs (40 ms)
