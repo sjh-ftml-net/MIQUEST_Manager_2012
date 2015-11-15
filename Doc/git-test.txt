@@ -1,1 +1,2 @@
 Test file to see how to use git
+Second line in file using SourceTree
